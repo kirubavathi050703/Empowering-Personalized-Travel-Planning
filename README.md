@@ -1,27 +1,6 @@
-# GlobeTrotter – Personalized Travel Planner
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/06863ab7-f9e9-4ce2-81fc-534bbc88784d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/afbe3b5a-8d56-4c66-8d05-5ffb64020edc" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/df859c51-892e-4704-88bc-156d29216461" />
 
-## Description
-GlobeTrotter is a travel planning web application that allows users to create trips,
-add activities, manage itineraries, and estimate travel budgets.
 
-## Features
-- Login & Dashboard
-- Create Trip
-- Add Activities
-- View Itinerary
-- Budget Calculation
-- SQLite Database
-
-## Tech Stack
-- Python
-- Flask
-- SQLite
-- HTML
-
-## How to Run
-```bash
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
-```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/66980c3c-c5eb-4174-8a5c-67926b292c54" />
