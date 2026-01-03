@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Activity</title>
+</head>
+<body>
+    <h2>Add Activity to Trip</h2>
+
+    <form action="/add-activity" method="POST">
+        Trip ID: <input type="number" name="trip_id" required><br><br>
+        City: <input type="text" name="city" required><br><br>
+        Activity Name: <input type="text" name="activity" required><br><br>
+        Cost: <input type="number" name="cost" required><br><br>
+
+        <button type="submit">Add Activity</button>
+    </form>
+    <hr>
+    <!-- LINKS TO OTHER PAGES -->
+    <a href="/create-trip-page">Create New Trip</a> |
+    <a href="/view-trips">View All Trips</a>
+</body>
+</html>
