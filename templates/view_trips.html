@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Trips</title>
+</head>
+<body>
+
+<h2>All Trips</h2>
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <tr>
+        <th>Trip ID</th>
+        <th>Name</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Total Budget (₹)</th>
+        <th>Action</th>
+    </tr>
+
+    {% for trip in trips %}
+    <tr>
+        <td>{{ trip.id }}</td>
+        <td>{{ trip.name }}</td>
+        <td>{{ trip.start_date }}</td>
+        <td>{{ trip.end_date }}</td>
+        <td>₹{{ trip.budget }}</td>
+        <td>
+            <a href="/itinerary/{{ trip.id }}">View Itinerary</a>
+        </td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+<hr>
+
+<a href="/create-trip-page">Create New Trip</a> |
+<a href="/add-activity-page">Add Activity</a> |
+<a href="/dashboard">Dashboard</a>
+
+</body>
+</html>
